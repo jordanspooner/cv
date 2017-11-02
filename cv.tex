@@ -1,15 +1,17 @@
-\documentclass[a4paper, 8pt]{extarticle}
+\documentclass[a4paper]{article}
 
 \usepackage[margin=25pt]{geometry}
 \usepackage{multicol}
 \usepackage{nopageno}
 \usepackage[document]{ragged2e}
 
+\usepackage{xcolor}
+
 \usepackage{titlesec}
-\titlespacing{\section}{0pt}{2pt plus 2pt minus 2pt}{0pt plus 2pt minus 2pt}
-\titlespacing{\subsection}{0pt}{2pt plus 2pt minus 2pt}{0pt plus 2pt minus 2pt}
-\titleformat*{\section}{\vspace{8pt}\titlerule\vspace{4pt}\Large\bfseries\sffamily\raggedright}
-\titleformat*{\subsection}{\vspace{2pt}\bfseries\sffamily\raggedright}
+\titlespacing{\section}{0pt}{4pt plus 2pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing{\subsection}{0pt}{4pt plus 2pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titleformat*{\section}{\color{blue!60!green!40!black} \vspace{8pt}\titlerule\vspace{4pt}\Large\bfseries\sffamily\raggedright}
+\titleformat*{\subsection}{\color{blue!60!green} \vspace{2pt}\bfseries\sffamily\raggedright}
 
 \renewcommand{\familydefault}{\sfdefault}
 
@@ -17,7 +19,7 @@
 \usepackage{hyperref}
 \hypersetup{
 	colorlinks=true,
-	urlcolor=blue
+	urlcolor=blue!60!black
 }
 
 \usepackage{enumitem}
@@ -37,12 +39,12 @@
 	
 	\vspace{4pt}
 	
-	\href{mailto:Jordan.Spooner16@imperial.ac.uk}{\ttfamily Jordan.Spooner16@imperial.ac.uk}
+	\href{mailto:Jordan.Spooner16@imperial.ac.uk}{Jordan.Spooner16@imperial.ac.uk}
 
-	\href{https://www.doc.ic.ac.uk/~js4416}{\ttfamily www.doc.ic.ac.uk/$\sim$js4416} $\mid$ \href{https://jordanspooner.com}{\ttfamily jordanspooner.com}
+	\href{https://www.doc.ic.ac.uk/~js4416}{www.doc.ic.ac.uk/$\sim$js4416} $\mid$ \href{https://jordanspooner.com}{jordanspooner.com}
+	
+	\vspace{-12pt}
 \end{center}
-
-\vspace{-16pt}
 
 \begin{minipage}[t]{.66\textwidth}
 
@@ -50,29 +52,15 @@
 
 \subsection*{BEng (Hons) in Computing, Imperial College London \hfill Oct 2016 - Jul 2019}
 \begin{itemize}
-	\item 86\% average in first year, with a 93\% average in programming modules
-	\item Achieved a first class result in all modules, including: Programming (Functional, Object-Oriented, Procedural), Databases, Discrete Mathematics, Reasoning about Programs, Logic, Mathematical Methods, Architecture, Hardware, Presentation Skills and Ethics
-	\item Member of the Department of Computing Society and First Aid Society
+	\item First class (86\% average) in first year
+	\item Achieved a first class result in all modules and 93\% average in programming
 \end{itemize}
 
-\subsection*{Computer Science and Electronics Summer School, University of Southampton \hfill Jul 2015}
+\subsection*{The Judd School \hfill Sep 2009 - Jul 2016}
 \begin{itemize}
-	\item Included work experience at J.P. Morgan
-\end{itemize}
-
-\subsection*{Massive Open Online Courses}
-\begin{itemize}
-	\item Machine Learning, Coursera / Stanford Online \hfill 2016
-	\item Mathematics for Computer Science, MIT OCW \hfill 2015
-	\item Introduction to Computer Science and Programming, MIT OCW \hfill 2014
-\end{itemize}
-
-\subsection*{The Judd School, Tonbridge \hfill Sep 2009 - Jul 2016}
-\begin{itemize}
-	\item Grade 1 in STEP Mathematics (91 Marks)
-	\item 4 A*s at A-Level and 5 As at AS-Level
-	\item 1 A$\hat{}$, 9.5 A*s and 1 A at GCSE/IGCSE
-	\item Achieved 98\% average across A-Levels in Mathematics, Further Mathematics, Physics and Chemistry, with 100\% in most A2 modules
+	\item Grade 1 in STEP Mathematics
+	\item 4 A*s (98\% average) at A-Level in Mathematics, Further Mathematics, Physics, Chemistry
+	\item 1 A$\hat{}$ and 9.5 A*s at GCSE/IGCSE
 	\item Founder of Computer Science Society
 \end{itemize}
 
@@ -81,29 +69,26 @@
 
 \subsection*{Internet Services Developer, Netcraft \hfill Jul 2017 - Sep 2017}
 \begin{itemize}
-	\item Worked with the machine learning team
-	\item Maintained and extended Netcraft's anti-phishing codebase, and ensured its reliable operation
+	\item Maintained and extended Netcraft's anti-phishing codebase, and ensured service reliability
 	\item Received sponsorship offer
 \end{itemize}
 
-\subsection*{Instructor, TuringLab \hfill Jun 2016 - Present}
+\subsection*{Instructor, TuringLab \hfill Jun 2017 - Present}
 \begin{itemize}
-	\item Guide and assist students through writing JavaScript programs
+	\item Teach students to write high-quality JavaScript code and provide assistance and useful feedback
 \end{itemize}
 
 \subsection*{Student Placement, IBM UK \hfill Dec 2014}
 \begin{itemize}
-	\item Tracked and evaluated progress on development of new middleware at a major UK building society
+	\item Worked within a team developing middleware for a major UK building society
 	\item Assisted with deployment and performance testing on new servers
-	\item Assisted with development and testing of new smartphone and smartwatch applications
 \end{itemize}
 
-\subsection*{Customer Service Assistant, Kent County Council (Until Sep 2016) and Westminster City Council (From Oct 2016) \hfill July 2014 - May 2017}
+\subsection*{Customer Service Assistant, Kent County Council and Westminster City Council \hfill July 2014 - May 2017}
 \begin{itemize}
 	\item Developed professional communication skills through customer facing role
-	\item Gained experience working with teams and responding to difficult situations
-	\item Carried out organisational tasks requiring high attention to detail
-	\item Answered complex local studies and reference enquiries, often requiring extensive research
+	\item Gained experience working in teams and responding to difficult situations
+	\item Answered complex reference enquiries, requiring extensive research
 \end{itemize}
 
 
@@ -111,45 +96,23 @@
 
 \subsection*{Phishing Website Classifier, Netcraft \hfill Jul 2017 - Sep 2017}
 \begin{itemize}
-\item Collected and cleaned large phishing website datasets using SQL queries and Bash, Perl and Awk scripts
-\item Developed a complex classifier using Vowpal Wabbit and scikit-learn, which performs competitively against results in academia, achieving over 99\% accuracy on URLs submitted to Netcraft
+\item Collected and cleaned very large phishing website datasets using SQL queries and Bash, Perl and Awk scripts
+\item Developed a machine learning classifier to determine whether websites host phishing content, which performs competitively against results in academia, achieving over 99\% accuracy on URLs submitted to Netcraft
 \item Deployed and monitored the classifier at Netcraft, using it to automate classification of the most difficult URLs, saving an estimated 10 000 hours of manual work each year
 \end{itemize}
 
-\subsection*{\href{https://github.com/ic-projects/arm11}{ARM Project}, Imperial College London \hfill May 2017 - Jun 2017}
+\subsection*{Academic Projects}
 \begin{itemize}
-\item Worked as part of a small group to develop an ARM emulator and assembler, as well as a motion controlled game engine, written in C / C++
-\item Developed clean, maintainable code with extensive documentation and thorough testing
+\item \textbf{\href{https://github.com/ic-projects/arm11}{ARM Group Project}} - Worked in a small group to develop from scratch an ARM emulator and assembler, and a motion-controlled game engine in C/C++, receiving the best project prize for the quality of our code, documentation and testing
+\item \textbf{\href{https://www.doc.ic.ac.uk/~js4416/163/website/}{Autoencoders and their Applications}} - Researched applications of autoencoders in Natural Language Processing
 \end{itemize}
 
-\subsection*{\href{https://www.doc.ic.ac.uk/~js4416/163/website/}{Autoencoders and their Applications}, Imperial College London \hfill Jan 2017 - Mar 2017}
+\subsection*{Hackathon Projects}
 \begin{itemize}
-\item Researched applications of autoencoders in Natural Language Processing and explored possible implementations in tasks such as sentiment analysis and machine translation, using Java
-\end{itemize}
-
-\vspace{-2pt}
-\noindent\textcolor{lightgray}{\rule{\linewidth}{0.5pt}}
-
-\subsection*{\href{https://devpost.com/software/boombox-s7zmce}{Boombox}, Porticode 2017 \hfill Oct 2017}
-\begin{itemize}
-\item Developed a Node.js backend for a prize-winning distributed speaker web application, which queries a MongoDB database
-\end{itemize}
-
-\subsection*{\href{https://devpost.com/software/kiitos}{Kiitos}, MLH Prime 2017 \hfill Apr 2017}
-\begin{itemize}
-\item Developed, tested and integrated a complex Solidity smart contract, allowing for charitable donations to be split and matched transparently
-\item Helped to develop a fast and reactive website, using JavaScript
-\end{itemize}
-
-\subsection*{\href{https://devpost.com/software/weather-g8lp3r}{Wether}, WarwickHack 2017 \hfill Feb 2017}
-\begin{itemize}
-\item Developed a Haskell API to set up fair weather insurance contracts on the Ethereum blockchain, and handled its various interactions
-\item Received prize for most disruptive hack
-\end{itemize}
-
-\subsection*{\href{https://devpost.com/software/emojifier}{Emojifier}, ICHack 2017 \hfill Jan 2017}
-\begin{itemize}
-\item Worked with word embeddings and recurrent neural networks in TensorFlow to develop a Python back-end for a web service that attempts to add relevant emojis to text
+	\item \textbf{\href{https://devpost.com/software/boombox-s7zmce}{Boombox}} - Developed a Node.js backend for a prize-winning distributed speaker web application, which queries a MongoDB database
+	\item \textbf{\href{https://devpost.com/software/kiitos}{Kiitos}} - Developed and tested a complex Solidity smart contract, which allows for charitable donations to be split and matched transparently
+	\item \textbf{\href{https://devpost.com/software/weather-g8lp3r}{Wether}} - Developed a Haskell API to set up fair weather insurance contracts on the Ethereum blockchain, as part of a prize-winning project
+	\item \textbf{\href{https://devpost.com/software/emojifier}{Emojifier}} - Worked with word embeddings and recurrent neural networks in TensorFlow to develop the back-end of a web service that adds relevant emojis to text
 \end{itemize}
 
 \end{minipage}%
@@ -157,46 +120,38 @@
 \begin{minipage}[t]{.32\textwidth}
 \section*{Awards}
 
-\subsection*{Gloucester Research Prize, Imperial College London \hfill Jul 2017}
-Awarded for academic excellence in the first year
+\subsection*{Imperial College London}
+\begin{itemize}
+	\item \textbf{Gloucester Research Prize}, Jul 2017 - Awarded for academic excellence
+	\item \textbf{Faculty of Engineering Dean's List}, Jul 2017
+	\item \textbf{ARM Best Overall Project Prize}, Jun 2017
+	\item \textbf{Morgan Stanley Prize}, Feb 2017 - Awarded for academic excellence in the first year Autumn examinations
+\end{itemize}
 
-\subsection*{Faculty of Engineering Dean's List, Imperial College London \hfill Jul 2017}
-
-\subsection*{ARM Best Overall Project Prize, Imperial College London \hfill Jun 2017}
-Awarded for the best ARM group project in the first year
-
-\subsection*{Morgan Stanley Prize, Imperial College London \linebreak \strut \hfill Feb 2017}
-Awarded for academic excellence in the first year Autumn examinations
-
-\subsection*{Drivers Jonas Prize, The Judd School \hfill Jul 2016}
-Awarded for academic excellence in the sixth form
-
-\subsection*{National Top-Scorer, University of Oxford Bebras Computational Thinking Challenge \linebreak \strut \hfill Nov 2015}
-
-\subsection*{Gold Award, UKMT Senior Mathematics Challenge \hfill 2014 - 2016}
+\subsection*{The Judd School}
+\begin{itemize}
+\item \textbf{Drivers Jonas Prize}, Jul 2016 - Awarded for academic excellence
+\item \textbf{University of Oxford Bebras Computational Thinking Challenge: National Top-Scorer}, Nov 2015
+\item \textbf{UKMT Senior Mathematics Challenge: Gold Award}, 2014 - 2016
+\end{itemize}
 
 
 \section*{Skills}
 
 \subsection*{Languages}
 \begin{itemize}
-\item In-depth knowledge of \textbf{Java}, confident in programming with \textbf{C}, \textbf{C++}, \textbf{Python} and \textbf{Haskell}, and have experience writing code in many other languages (Golang, Perl, JavaScript, ...)
+\item In-depth knowledge of \textbf{Java}, confident with \textbf{C}, \textbf{C++}, \textbf{Python} and \textbf{Haskell}, and have experience in many other languages (Go, Perl, Ruby, ...)
 \item Able to learn new languages and tools quickly and effectively
 \end{itemize}
 
 \subsection*{Technical Skills}
 \begin{itemize}
-\item \textbf{Software development} - Able to write high-quality code, select and implement efficient algorithms and data structures, and optimise programs, including by use of concurrency
-\item \textbf{Web Development} - Able to develop fast and dynamic websites, using common web technologies
-\item \textbf{Networking} - Knowledgable about networking services and protocols
-\item \textbf{Databases} - Able to design and maintain databases, and write complex SQL and NoSQL queries
-\item \textbf{Testing} - Able to write effective unit, integration and stress tests
-\item \textbf{Debugging} - Able to debug, maintain and improve software
-\item \textbf{Linux} - Confident in use of the command line, including use of almost all standard commands, and bash scripting
-\item \textbf{Git} - Confident in use of Git for version control, including use of its more advanced features
-\item \textbf{Big Data} - Able to mine, transform and analyse very large datasets
-\item \textbf{Machine Learning} - Able to select and implement effective machine learning algorithms, and use common libraries such as TensorFlow and scikit-learn
-\item \textbf{Research} - Able to carry out research, make use of previous results, and produce academic writing, including typesetting with \TeX
+\item \textbf{Software development} - Able to write high-quality code, select and implement efficient algorithms and data structures, and debug, maintain and improve existing code
+\item \textbf{Web Development} - Confident with common web technologies
+\item \textbf{Databases} - Experienced with SQL and NoSQL databases
+\item \textbf{Linux} - Confident in using the command line, bash scripting, and using common development tools such as Git
+\item \textbf{Machine Learning} - Able to work with large datasets, and have experience with common libraries such as TensorFlow and scikit-learn
+\item \textbf{Research} - Able to carry out research, make use of previous results, and produce academic writing
 \end{itemize}
 
 
@@ -204,9 +159,8 @@ Awarded for academic excellence in the sixth form
 
 \subsection*{First Aider, St John Ambulance \linebreak \strut \hfill Sep 2012 - Sep 2016}
 \begin{itemize}
-	\item Obtained first aider qualifications and delivered first aid training
 	\item Completed intensive leadership and teamwork training
-	\item Organised and attended promotional and fundraising events
+	\item Delivered first aid training
 \end{itemize}
 
 \end{minipage}
